@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Pivot table</title>
+<link rel = "stylesheet" href = "pivot_table.css" type = "text/css" media = "screen" charset = "utf-8" />    
+</head>
+<body>
+    <div class ="container">
+        <h2 class ="header">Pivot Table Builder</h2>
+        <form action="pivot.py" method = "get">
+            <div class="row_input">
+                <br/>
+                <span>Rows</span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <select name="rows">
+                    <option value="year">Year</option>
+                    <option value="month">Month</option>
+                    <option value="city">City</option>
+                </select>
+                <br/><br/>
+            </div>
+            
+            <div class="column_input">
+                <span>Columns</span>
+                &nbsp;&nbsp;
+                    <select name="columns">
+                        <option value="year">Year</option>
+                        <option value="month">Month</option>
+                        <option value="city">City</option>
+                    </select>
+                    <br/><br/>
+            </div>
+            
+            <div class="value_input">
+                <span>Values</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select name="values">
+                    <option value="temp">Temperature</option>
+                    <option value="rain">Rainfall</option>
+                </select>
+                <br/><br/>
+            </div>
+            
+            <div class="filter_values">
+                <span>Filter</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select name="filter">
+                      <option value="year">Year</option>
+                      <option value="month">Month</option>
+                      <option value="city">City</option>
+                </select><br/><br/>
+                <input type="text" name="filter_value" value = "Enter filter conditions separated by commas" size = "42"/>
+                <br/><br/>
+            </div>
+            
+            <div class="buttons">
+                <input type="submit" value="Submit"/>
+            </div>
+            
+            
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body{
+    background-image:url("black.jpg");
+    font: normal 0.7em "Lucida Sans Unicode", Verdana, sans-serif;
+    color: #666666;
+    font-color:red;
+}
+
+a:link {color:#000000;}    /* unvisited link */
+a:visited {color:#000000;} 
+a:hover {color:#e0115f;}   
+a:active {color:#0000FF;} 
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}
+
+.hyperlinks{
+   font: normal 2.0em "Lucida Sans Unicode", Verdana, sans-serif; 
+}
+
+.header{
+    font: bold 2.2em "Lucida Sans Unicode", Verdana, sans-serif;
+    color:#006994;
+    text-align:center;
+}
+
+.q1{   
+    float:left;    
+    margin-top: 20px;
+    padding: 30px;  
+    width: 570px;
+    height: 80px;
+    opacity:0.7;
+    background-color: #C6C672;
+}
+
+.q2{   
+    float:right;    
+    margin-top: 20px;
+    padding: 30px;  
+    width: 570px;
+    height: 80px;
+    opacity:0.7;
+    background-color: #69BBD0;  
+}
+
+.q3{   
+    float:left;    
+    margin-top: 20px;
+    padding: 30px;  
+    width: 570px;
+    height: 80px;
+    opacity:0.7;
+    background-color: #CE75A7;  
+}
+
+
+.q4{   
+    float:right;    
+    margin-top: 20px;
+    padding: 30px;  
+    width: 570px;
+    height: 80px;
+    opacity:0.7;
+    background-color: #F79F51;
+}
+
+
+.q5{      
+    float:left;
+    margin-top: 20px;
+    padding: 60px;  
+    width: 1140px;
+    height: 35px;
+    opacity:0.7;
+    background-color: #f0f0f0;   
+}

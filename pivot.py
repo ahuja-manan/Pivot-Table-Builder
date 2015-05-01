@@ -20,7 +20,7 @@ html_end = '''
 </div></body></html>'''
 
 #url of the html file that creates the form
-pivot_form = 'pivot_table.html'
+pivot_form = 'index.html'
 
 # retrieve POST/GET user data
 def get_user_input():
